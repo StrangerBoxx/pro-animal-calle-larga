@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/pro-animal-calle-larga/',
+  base: 'https://strangerboxx.github.io/pro-animal-calle-larga/',
   plugins: [react(),tailwindcss()],
 })
