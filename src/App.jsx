@@ -11,10 +11,10 @@ import Page5 from './pages/Page5';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/pro-animal-calle-larga">
       <Routes>
         {/* Ruta Home*/}
-        <Route path="/pro-animal-calle-larga" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
 
         {/* Rutas a editar */}
         <Route path="/page2" element={<Page2 />} />
