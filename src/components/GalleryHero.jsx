@@ -43,7 +43,7 @@ const GalleryHero = () => {
                 />
             ))}
             
-            <div className="absolute inset-0 bg-black bg-opacity-30 z-10" />
+            <div className="absolute inset-0 z-10" />
             
             <div className="absolute inset-0 z-20 flex items-center justify-center">
                 <div className="text-center text-white px-6">
