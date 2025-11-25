@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const GalleryHero = () => {
+const VideoGallery = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     
     const videoNames = [
@@ -59,4 +59,4 @@ const GalleryHero = () => {
     );
 };
 
-export default GalleryHero;
+export default VideoGallery;
