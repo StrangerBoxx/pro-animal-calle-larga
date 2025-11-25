@@ -1,13 +1,9 @@
-import React from 'react';
 import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import DogCard from '../components/DogCard';
-import ContactForm from '../components/ContactForm';
-import { dogs } from '../data/dogs';
-import { Heart, Home, User } from 'lucide-react';
 import VideoGallery from '../components/VideoGallery';
 import HeroSection from '../components/Hero';
 import DogsGrid from '../components/DogsGrid';
+import ContactForm from '../components/ContactForm';
+import Footer from '../components/Footer';
 
 const HomePage = () => {
   return (
