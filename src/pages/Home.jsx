@@ -5,11 +5,14 @@ import DogCard from '../components/DogCard';
 import ContactForm from '../components/ContactForm';
 import { dogs } from '../data/dogs';
 import { Heart, Home, User } from 'lucide-react';
+import GalleryHero from '../components/GalleryHero';
 
 const HomePage = () => {
   return (
     <div id='home' className="min-h-screen flex flex-col bg-gray-50 font-sans">
       <Navbar />
+
+      <GalleryHero />
 
       {/* Hero*/}
       <section className="bg-[#f0fdf4] py-20 px-6 text-center relative overflow-hidden">
@@ -39,29 +42,6 @@ const HomePage = () => {
           </div>
         </div>
 
-        {/* Floating Cards */}
-
-        <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* 1 */}
-            <div className="bg-white p-8 rounded-xl shadow-sm border border-green-100 flex flex-col items-center">
-                <div className="bg-green-50 p-3 rounded-full mb-4">
-                    <Home className="text-green-600" size={32} />
-                </div>
-                <span className="text-4xl font-bold text-green-600 mb-1">5</span>
-                <h3 className="font-bold text-gray-700">Perros Buscando Hogar</h3>
-                <p className="text-gray-400 text-sm mt-1">Esperando por una familia que los ame</p>
-            </div>
-
-            {/* 2 */}
-            <div className="bg-white p-8 rounded-xl shadow-sm border border-green-100 flex flex-col items-center">
-                <div className="bg-green-50 p-3 rounded-full mb-4">
-                    <Heart className="text-green-600" size={32} />
-                </div>
-                <span className="text-4xl font-bold text-green-600 mb-1">2</span>
-                <h3 className="font-bold text-gray-700">Perros Adoptados</h3>
-                <p className="text-gray-400 text-sm mt-1">Historias de éxito y amor</p>
-            </div>
-        </div>
       </section>
 
       {/* Dogs Grid */}
