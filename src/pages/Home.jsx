@@ -2,12 +2,13 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import DogCard from '../components/DogCard';
+import ContactForm from '../components/ContactForm';
 import { dogs } from '../data/dogs';
 import { Heart, Home, User } from 'lucide-react';
 
 const HomePage = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50 font-sans">
+    <div id='home' className="min-h-screen flex flex-col bg-gray-50 font-sans">
       <Navbar />
 
       {/* Hero*/}
@@ -64,7 +65,7 @@ const HomePage = () => {
       </section>
 
       {/* Dogs Grid */}
-      <section className="py-20 px-6 container mx-auto">
+      <section id="dogsgrid" className="py-20 px-6 container mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-800 mb-3">Conoce a Nuestros Amigos</h2>
           <p className="text-gray-500">Estos adorables perros están esperando conocerte</p>
@@ -85,23 +86,9 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Banner */}
-      <section className="bg-green-700 text-white py-16 px-6 text-center">
-        <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold mb-4">Cambia una Vida Hoy</h2>
-            <p className="mb-8 text-green-50 text-lg">
-                La adopción no solo cambia la vida de un perro, también transforma la tuya.
-                Descubre el amor incondicional que solo un amigo de cuatro patas puede dar.
-            </p>
-            {/* Button */}
-            <button className="bg-[#0f5132] text-white px-8 py-3 rounded-lg font-bold 
-                               hover:bg-green-900 transition transform hover:scale-105 hover:-translate-y-1 hover:shadow-xl 
-                               shadow-lg border border-green-600">
-                Comenzar el Proceso de Adopción
-            </button>
-        </div>
-      </section>
-
+      {/* Contacto */}
+      
+      <ContactForm />     
       <Footer />
     </div>
   );
