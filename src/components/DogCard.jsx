@@ -1,6 +1,4 @@
-import React from 'react';
-
-const DogCard = ({ dog }) => {
+const AnimalCard = ({ dog }) => {
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden 
                     hover:shadow-xl transition-all duration-300 ease-in-out 
@@ -20,4 +18,4 @@ const DogCard = ({ dog }) => {
   );
 };
 
-export default DogCard;
+export default AnimalCard;

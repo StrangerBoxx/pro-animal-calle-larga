@@ -1,11 +1,8 @@
-
-import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-// Importamos todas las páginas
 import HomePage from './pages/Home';
-import Page4 from './pages/Page4';
-import Page5 from './pages/Page5';
+import LoginPage from './pages/Login';
+import AdminPage from './pages/Admin';
 
 function App() {
   return (
@@ -15,8 +12,8 @@ function App() {
         <Route path="/" element={<HomePage />} />
 
         {/* Rutas disponibles */}
-        <Route path="/page4" element={<Page4 />} />
-        <Route path="/page5" element={<Page5 />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/admin" element={<AdminPage />} />
       </Routes>
     </BrowserRouter>
   );

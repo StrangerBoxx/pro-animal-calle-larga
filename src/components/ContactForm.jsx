@@ -1,4 +1,3 @@
-import React from 'react';
 import { Send, Mail, User, MessageSquare } from 'lucide-react';
 
 const ContactForm = () => {
@@ -39,10 +38,10 @@ const ContactForm = () => {
               La adopción no solo cambia la vida del animal, también transforma la tuya.
             </p>
             <div className="mt-auto space-y-4">
-               <div className="flex items-center gap-3">
-                 <Mail size={18} className="text-green-300"/>
-                 <span className="text-sm">contacto@callelarga.cl</span>
-               </div>
+              <div className="flex items-center gap-3">
+                <Mail size={18} className="text-green-300"/>
+                <span className="text-sm">contacto@callelarga.cl</span>
+              </div>
             </div>
           </div>
 
