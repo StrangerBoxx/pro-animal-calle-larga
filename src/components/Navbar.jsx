@@ -13,7 +13,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleScrollSpy = () => {
       // Definimos las secciones que queremos rastrear
-      const sections = ['home', 'dogsgrid', 'contact'];
+      const sections = ['home', 'animalsgrid', 'contact'];
       
       // Ajuste para la altura del navbar (para que detecte un poco antes de llegar)
       const scrollPosition = window.scrollY + 150; 
@@ -95,8 +95,8 @@ const Navbar = () => {
           {/* BOTÓN ANIMALITOS */}
           <li>
             <button 
-              onClick={() => handleScroll('dogsgrid')} 
-              className={getButtonClass('dogsgrid')}
+              onClick={() => handleScroll('animalsgrid')} 
+              className={getButtonClass('animalsgrid')}
             >
               Animalitos
             </button>

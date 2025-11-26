@@ -1,25 +1,24 @@
 import { useState, useEffect } from 'react';
-// import { dogs } from '../data/dogs';
 import { GET } from '../firebase/controller';
 import AnimalCard from './AnimalCard';
 
 const AnimalsGrid = () => {
-    const [dogs, setDogs] = useState([]);
+    const [animals, setAnimals] = useState([]);
 
     useEffect(() => {
-        GET().then((data) => setDogs(data));
+        GET().then((data) => setAnimals(data));
     }, []);
 
     return (
-        <section id="dogsgrid" className="py-20 px-6 container mx-auto">
+        <section id="animalsgrid" className="py-20 px-6 container mx-auto">
             <div className="text-center mb-12">
                 <h2 className="text-3xl font-bold text-gray-800 mb-3">Conoce a Nuestros Amigos</h2>
                 <p className="text-gray-500">Estos adorables animalitos están esperando conocerte</p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {dogs.map((dog) => (
-                    <AnimalCard key={dog.id} dog={dog} />
+                {animals.map((animal) => (
+                    <AnimalCard key={animal.id} animal={animal} />
                 ))}
             </div>
             
