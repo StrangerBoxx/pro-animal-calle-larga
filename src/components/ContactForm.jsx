@@ -36,7 +36,7 @@ const ContactForm = () => {
           <div className="bg-[#0f5132] text-white p-8 md:w-1/3 flex flex-col justify-center">
             <h3 className="text-xl font-bold mb-6">Información de Contacto</h3>
             <p className="text-green-100 mb-4 text-sm leading-relaxed">
-              La adopción no solo cambia la vida de un perro, también transforma la tuya.
+              La adopción no solo cambia la vida del animal, también transforma la tuya.
             </p>
             <div className="mt-auto space-y-4">
                <div className="flex items-center gap-3">

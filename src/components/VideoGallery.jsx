@@ -51,7 +51,7 @@ const VideoGallery = () => {
                         Bienvenidos
                     </h1>
                     <p className="text-2xl">
-                        Transformando vidas, un perro a la vez
+                        Transformando vidas, un animalito a la vez
                     </p>
                 </div>
             </div>

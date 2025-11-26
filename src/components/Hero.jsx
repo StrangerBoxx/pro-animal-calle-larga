@@ -9,7 +9,7 @@ const HeroSection = () => {
                 <span className="text-gray-800">a un Amigo Fiel</span>
             </h1>
             <p className="text-gray-600 mb-8 text-lg leading-relaxed">
-                Cada perro merece una segunda oportunidad. Ayúdanos a 
+                Cada animalito merece vivir rodeado de amor. Ayúdanos a 
                 encontrar familias amorosas para nuestros amigos de cuatro patas.
             </p>
             

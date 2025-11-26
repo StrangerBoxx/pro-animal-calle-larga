@@ -1,7 +1,7 @@
 import Navbar from '../components/Navbar';
 import VideoGallery from '../components/VideoGallery';
 import HeroSection from '../components/Hero';
-import DogsGrid from '../components/DogsGrid';
+import AnimalesGrid from '../components/AnimalesGrid';
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
 
@@ -14,7 +14,7 @@ const HomePage = () => {
 
       <HeroSection />
 
-      <DogsGrid />
+      <AnimalesGrid />
       
       <ContactForm />     
 
