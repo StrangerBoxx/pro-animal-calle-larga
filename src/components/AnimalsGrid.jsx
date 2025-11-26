@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 // import { dogs } from '../data/dogs';
 import { GET } from '../firebase/controller';
-import AnimalCard from './DogCard';
+import AnimalCard from './AnimalCard';
 
 const AnimalsGrid = () => {
     const [dogs, setDogs] = useState([]);
